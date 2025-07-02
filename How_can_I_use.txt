@@ -1,0 +1,8 @@
+1. First, you need to create a Spotify Developer Application.
+2. Go to https://developer.spotify.com, sign in, and navigate to the Dashboard.
+3. Click "Create an App" and follow the steps.
+4. Once your app is created, you’ll see a Client ID and a Client Secret.
+5. Copy these values and paste them into your code at lines 13 and 14.
+6. Then, go to your app settings and change the Redirect URI to:
+   http://127.0.0.1:8888/callback
+7. Now you're ready! Run the script, grant the requested permissions in the browser, and paste the URL of the Spotify playlist you want to process.
